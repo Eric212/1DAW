@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>The float property</title>
+
+    <!--[if lt IE 9]>
+
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+    <![endif]-->
+
+    <style>
+
+	aside, article, section, header, footer, nav {
+
+		display: block;
+
+	}
+
+	html, body {
+
+		margin: 0;
+
+		padding: 0;
+
+	}
+
+	html {
+
+		background: #ccc;
+
+	}
+
+	body {
+
+		width: 600px;
+
+		background: #fff;
+
+		margin: 2em auto 2em;
+
+	}
+
+	div {
+
+		margin-bottom: 1em;
+
+		width: 200px;
+
+		height: 100px;
+
+	}
+
+	/*add styles here*/
+
+	.element1 {
+		float: left;
+		margin:0 5px;
+		background: rgb(211, 206, 61);
+		z-index: 1;
+
+	}
+
+	.element2 {
+		float: left;
+		margin:0 5px 0 5px;
+		background: rgb(85, 66, 54);
+		z-index: 2;
+
+	}
+
+	.element3 {
+		float: left;
+		margin:5px 5px;
+		background: rgb(247,120,37);
+		z-index: 3; 
+
+	}
+
+
+    </style>
+
+</head>
+
+<body>
+
+<p>The float property has four possible values: left | right | inherit | none
+<p>
+
+<p>Floating an element to the left or to the right will cause it to move to the left-most or right-most edge of its
+    parent container. Floating removes the element from normal flow, and will cause elements below it to shift
+    accordingly.</p>
+
+<div class="element1"></div>
+
+<div class="element2"></div>
+
+<div class="element3"></div>
+
+</body>
+
+</html>
