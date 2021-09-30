@@ -1,0 +1,8 @@
+Create table alumnos(
+dni varchar(10),
+nombre varchar(20)
+):
+Alter table alumnos add primary key (dni);
+Alter table alumnos add fk_loquesea integer;
+Alter table Orders
+add foreign key (personid) references person(personid);

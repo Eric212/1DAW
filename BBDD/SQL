@@ -1,0 +1,5 @@
+Create table alumnos(
+dni varchar(10),
+nombre varchar(20)
+):
+Alter table alumnos add primary key (dni);
