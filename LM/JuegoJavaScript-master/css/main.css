@@ -1,0 +1,64 @@
+@font-face {
+  font-family:'SpaceInvaders';
+  src:url('../fonts/Space-Invaders.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  background: url("../img/background.jpg");
+}
+.fondo{
+  position: relative;
+  width: 397px;
+  height: 710px;
+  margin: 2% auto;
+  background-image: url("../img/wallpaper.png");
+  border: #2ecc71 solid 2px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.fondo div{
+  width: 44px;
+  height: 44px;
+}
+.alienigena{
+  background-image: url("../img/enemy.png");
+}
+.nave{
+  background-image: url("../img/player.png");
+}
+.finPartida{
+  font-family: SpaceInvaders;
+  position: absolute;
+  top:20%;
+  left: 27%;
+  color: aqua;
+  text-shadow: #666666 2px 2px;
+}
+.laser{
+  background-image: url("../img/laser.png");
+}
+.boom{
+  background-image:url("../img/explosion.gif");
+}
+#musica{
+  position: absolute;
+  top: 0;
+  left:39.65%;
+  width: 20.8%;
+  border-radius: 35px;
+}
+#puntuacion{
+  position: absolute;
+  background:rgba(0,0,0,0.7);
+  padding: 10px;
+  top:5%;
+  right: 20%;
+  width: 14%;
+  height: 7%;
+  font-family:SpaceInvaders;
+  color: aqua;
+  border: #2ecc71 solid 2px;
+  text-align: center;
+}
