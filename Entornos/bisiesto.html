@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="Rubén" name="author">
+	<title>Cálculo de año bisiesto en java script</title>	
+
+<script>
+// Función que determina si un año es bisiesto o no
+function bisiesto() {
+	var anio = document.getElementById("anio").value;
+	var esBisiesto = false;
+	
+	
+	if (anio % 400 == 0) {
+		esBisiesto = true;
+	} else if (anio % 4 == 0 && anio % 100 != 0) {
+		esBisiesto = true;
+	}
+	
+	if (esBisiesto === true) {
+		document.getElementById("esBisiesto").style.display="block";
+		document.getElementById("noEsBisiesto").style.display="none";
+	} else {
+		document.getElementById("esBisiesto").style.display="none";
+		document.getElementById("noEsBisiesto").style.display="block";
+	}
+	
+}
+</script>
+
+</head>
+
+<body>
+<h2>Cálculo de año bisiesto en java script</h2>
+
+<form>
+  <label for="anio">Año:</label><br>
+  <input type="text" id="anio" name="anio" value=""><br>  
+  <input type="button" value="Calcular" onclick="bisiesto()">
+</form> 
+<p>
+	<span id="esBisiesto" style="display:none">Es bisiesto</span>
+	<span id="noEsBisiesto" style="display:none">No es bisiesto</span>
+</p>
+</body>
+
+</html>
