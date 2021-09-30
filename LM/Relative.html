@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Relative Positioning</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+	aside, article, section, header, footer, nav {
+		display: block;
+	}
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background: #ccc;
+	}
+	body {
+		width: 700px;
+		background: #fff;
+		margin: 2em auto 2em;
+		font: 100% Arial, Helvetica, sans-serif;
+		padding: 25px;
+	}
+	div {
+		margin-bottom: 25px;
+		width: 50px;
+		height: 50px;
+		padding: 25px;
+	}
+	/*add styles here*/
+	.container {
+		background: rgb(237,228,214);
+		padding: 25px;
+	}
+	.element1 {
+		background: rgb(211, 206, 61);
+		position: relative;
+		height: 200px;
+		top:200px;
+		left:200px;
+	}
+	.element2 {
+		background: rgb(85, 66, 54);
+	}
+	.element3 {
+		background: rgb(247,120,37);
+	}
+</style>
+</head>
+<body>
+	<h1>Positioning</h1>
+	<p>The positioning property has five possible values: <strong>static</strong> | <strong>relative</strong> | <strong>absolute</strong> | <strong>fixed</strong> | <strong>inherit</strong> <p>
+		<p>Static represents a box in normal document flow, and is the default position value for elements. Relative positioning allows elements to be offset from their normal position. Following elements react as if the element were not offset. Absolute positioning removes the element from normal flow and allows you to position it using top, left, bottom, or right offsets. Following elements react as if the absolutely positioned element does not exist. Fixed positioning "fixes" an element relative to the viewport. Just as with absolute, the element is removed from normal flow.</p>
+		<section class="container">
+			<div class="element1">One</div>
+			<div class="element2">Two</div>
+			<div class="element3">Three</div>
+		</section>
+	</body>
+	</html>
+

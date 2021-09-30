@@ -1,0 +1,2 @@
+# Footer
+El footer es una manera mas formal de marcar el cierre de tu pagina web, donde se suele agregar la información adicional que no tiene que ver con la pagina es si, suele ser informacion de contacto.

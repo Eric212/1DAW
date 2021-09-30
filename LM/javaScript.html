@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pagina de prueba</title>
+</head>
+<body>
+	<h1>Pagina de prueba</h1>
+	<div>Esto es un div con esta imagen
+		<img width="350px" height="200px" src="../../../Imágenes/Eve_of_destruction.jpg">
+	</div>
+	Aqui hay otra:<img src="../../../Imágenes/juanjoImpostor.jpeg">
+	<p>Finalmente, por aqui hay otra mas:
+	<img src="../../../Imágenes/índice.jpeg">
+	</p>
+	<input type="button" name="Quitar Imagen" onclick="remove()">
+	<input type="button" name="Añadir parrafo" onclick="add()">
+	<script>
+		function remove(){
+			let ult_parrafos=document.getElementsByTagName("img");
+			let ult_parrafo=ult_parrafos[ult_parrafos.length-1];
+			ult_parrafo.remove();
+			alert("Borrando imagen");
+		}
+		function add(){
+			let div=document.getElementsByTagName("div");
+			let p=document.createElement("p");
+			div.appendChild(p);
+			let p_div=div.getElementsByTagName("p");
+			p_div[p_div.length-1].innerHTML="Ola k ase";
+			alert("Creando")
+		}
+	</script>
+</body>
+</html>

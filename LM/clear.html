@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The float property</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+	aside, article, section, header, footer, nav {
+		display: block;
+	}
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background: #ccc;
+	}
+	body {
+		width: 600px;
+		background: #fff;
+		margin: 2em auto 2em;
+		font: 100% Arial, Helvetica, sans-serif;
+	}
+	div {
+		margin-bottom: 1em;
+		/*margin-right: 2em;*/
+		width: 150px;
+		height: 50px;
+		border: 1px solid #000;
+		padding: 25px;
+		/*float: left;*/
+	}
+	/*add styles here*/
+	.element1 {
+		background: rgb(211, 206, 61);
+		width: 50px;
+		height: 200px;
+		float: right;
+	}
+	.element2 {
+		background: rgb(85, 66, 54);
+		float: left;
+		width: 50px;
+		height: 200px;
+	}
+	.element3 {
+		clear: both;
+		background: rgb(247,120,37);
+	}
+	.element4 {
+		/*clear:left;*/
+		background: rgb(26, 78, 175);
+	}
+	.element5 {
+		background: rgb(195, 156, 61);
+	}
+	.element6 {
+		background: rgb(225,68,37);
+	}
+</style>
+</head>
+<body>
+	<p>The clear property has five possible values: left | right | both | inherit | none<p>
+		<p>By clearing an element, you can ensure the element does not appear to the left or the right of any floated element. This has the result of turning a float "off" and restoring normal document flow to the remaining elements.</p>
+		<div class="element1">one</div>
+		<div class="element2">two</div>
+		<div class="element3">three</div>
+		<div class="element4">four</div>
+		<div class="element5">five</div>
+		<div class="element6">six</div>
+	</body>
+	</html>
+

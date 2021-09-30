@@ -1,0 +1,88 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Controlling element stacking</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+	aside, article, section, header, footer, nav {
+		display: block;
+	}
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background: #ccc;
+	}
+	body {
+		width: 700px;
+		background: #fff;
+		margin: 2em auto 2em;
+		font: 100% Arial, Helvetica, sans-serif;
+		padding: 25px;
+	}
+	div {
+		margin-bottom: 25px;
+		width: 50px;
+		height: 50px;
+		padding: 25px;
+	}
+	li {
+		font-size: 90%;
+	}
+	/*add styles here*/
+	.container {
+		background: rgb(237,228,214);
+		padding: 25px;
+		height: 100px;
+		position: relative;
+		margin-top: 25px;
+		border: 1px solid black;
+	}
+	.element1 {
+		background: rgb(211, 206, 61);
+		position: absolute;
+		left: -50px;
+		top: -10px;
+		z-index:1;
+	}
+	.element2 {
+		background: rgb(85, 66, 54);
+		position: absolute;
+		left: 25px;
+		top: 50px;
+	}
+	.element3 {
+		background: rgb(247,120,37);
+		position: absolute;
+		left: 100px;
+		top: 100px;
+	}
+</style>
+</head>
+<body>
+	<h1>Z-index</h1>
+	<p>Z-index can be set on any positioned element and has three possible values: <strong>auto</strong> | <strong>&lt;integer&gt;</strong> |  <strong>inherit</strong> <p>
+		<p>By default, positioned elements are stacked on top of each other based on where they are encountered in the source order, with the last object on top. By setting the z-index property you can control the stacking order of positioned elements. Items are ordered based on "stacking context." The root element forms the initial stacking context, with other stacking contexts being created by applying a z-index value other than "auto."</p>
+		<p>Within each stacking context, elements are stacked in this order:</p>
+		<ul>
+			<li>The background and borders of the element forming the stacking context</li>
+			<li>Any child stacked elements with a negative z-index</li>
+			<li>Elements in normal flow</li>
+			<li>Non-positioned floats</li>
+			<li>Any child stacked elements with a z-index of zero or auto</li>
+			<li>Any child stacked elements with a positive z-index value, lowest to highest</li>
+		</ul>
+		<section class="container">
+			<div class="element1">One</div>
+			<div class="element2">Two</div>
+			<div class="element3">Three</div>
+		</section>
+	</body>
+	</html>
+

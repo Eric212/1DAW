@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>calculating unit values</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+	aside, article, section, header, footer, nav {
+		display: block;
+	}
+	article, div, h1, h2, p {
+		margin: 0;
+		padding:0;
+	}
+	html {
+		background: url(images/grid.gif) 5px 5px;
+	}
+	body {
+		width: 960px;
+		margin: 0 auto;
+		font: 10px Arial, Arial, Helvetica, sans-serif;
+	}
+	.em {
+		font-size: 1.5em;
+		padding: 1em;
+		float: left;
+		width: 520px;
+		margin-bottom: 50px;
+		background: rgba(237,198,75,.6);
+	}
+	.percentages {
+		padding: 1em;
+		float: right;
+		width: 380px;
+		background: rgba(109,154,197,.4);
+		margin-bottom: 50px;
+	}
+	footer {
+		clear: both;
+	}
+	/*add styles here*/
+	h1 {
+		font-size: 3em;
+		margin-bottom: 1em;
+	}
+	h2 {
+		font-size: 2em;
+		margin-bottom: 1em;
+	}
+	p {
+		font-size: 1.5em;
+		margin-bottom: 1em;
+	}
+</style>
+</head>
+<body>
+	<article>
+		<h1>How browsers calculate unit values</h1>
+		<section class="em">
+			<h2>Using ems</h2>
+			<p>If ems are used in the font-size property, their value is calculated as a multiple of the parent element's font size. This eventually leads back to the device's default font size, set by either the device or the user.</p>
+			<p>This can make it very difficult to accurately predict what the calculated value will be for multiply nested elements. While this is generally not a problem regarding fonts (after all, the goal is to make elements relative to each other, not to know exactly what their calculated size will be), it can make it difficult to know which value to set for box model properties if you're approximating values based on default document font size.</p>
+			<p>If, on the other hand, ems are used for any other property, their value is calculated as a multiple of that element's font size, NOT the parent.</p>
+		</section>
+		<section class="percentages">
+			<h2>Using percentages</h2>
+			<p>For the most part, percentages are pretty straightforward. Values are calculated based on the overall value of the parent element. For example, if you gave a block-level element a width of 100%, it would stretch as wide as possible, and only be restricted by the parent element.</p>
+			<p>For nested elements, you need to remember that a percentage is calculated relative to the parent, no matter how deep the element is. This can actually be very tricky in complicated layouts, as it is sometimes difficult to remember exactly which element the percentage is based on.</p>
+			<p>It's even more difficult when you mix percentages and other values. For example, if you set an element's width to 80% and set 20px worth of padding you need to remember that those values are cumulative. The total width of the element would be 80% of its parent, plus the 40px worth of horizontal padding.</p>
+		</section>
+		<footer>
+			<p>One day soon, we'll be able to use root ems ("rem"). Root ems will allow you to set a value that is calculated based on the document's default font size, not the parent elements. This will give you additional flexibility when using ems within layout values, and make it easier to create em-based layouts.
+			</p>
+		</footer>
+	</article>
+</body>
+</html>
+

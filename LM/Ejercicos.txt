@@ -1,0 +1,11 @@
+HTML 5
+
+·)Para conseguir un mejor posicionamiento CEO por parte de google, a parte de 
+evitar posibles conflictos a la hora de entender paginas de otras personas
+
+·)Div
+
+·)Si utilizaramos la etiqueta div en vez de utilizar las etiquetas reservadas en
+html 5 para identificar el menu, pie de pagina, o la cabecera, Google nos penali
+zaria en el posicionamiento CEO
+

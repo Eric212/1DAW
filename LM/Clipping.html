@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>clipping positined elements</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+	aside, article, section, header, footer, nav {
+		display: block;
+	}
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background: #ccc;
+	}
+	body {
+		width: 700px;
+		background: #fff;
+		margin: 2em auto 2em;
+		font: 100% Arial, Helvetica, sans-serif;
+		padding: 25px;
+	}
+	div {
+		margin-bottom: 25px;
+		width: 400px;
+		padding: 25px;
+		border: 2px solid red;
+	}
+	/*add styles here*/
+	.container {
+		background: rgb(237,228,214);
+		padding: 25px;
+		height: 100px;
+		position: relative;
+		margin-top: 25px;
+		border: 1px solid black;
+	}
+	.element1 {
+		background: rgb(211, 206, 61);
+		position: absolute;
+		left: 25px;
+		top: 25px;
+	}
+
+</style>
+</head>
+<body>
+	<h1>Clip</h1>
+	<p>The Clip property can be set to define the visible part of absolutely positioned elements. You can set clipping values through the use of a rectangular shape. Values: <strong>&lt;shape&gt;</strong> | <strong>auto</strong> | <strong>inherit</strong> <p>
+		<p>When defined, an element's clipping region hides any part of the element that is outside of the clipping region. Clipping is defined as a series of offset that tell the browser how far away from each side of the element to clip. Currently, the only supported shape for clipping is rectangular. The syntax is defined as a series of offsets that looks like this: <strong>rect(10px,10px, 25px, 10px)</strong></p>
+		<section class="container">
+			<div class="element1"><p>This content will eventually be clipped based on the offsets passed into the clip property. The syntax of the property starts at the top and moves clockwise, so the offsets are: top, right, bottom, and left. Top and bottom offsets start at the top edge of the box while left and right offsets start from the left edge of the element's box.</p></div>
+		</section>
+	</body>
+	</html>
+
