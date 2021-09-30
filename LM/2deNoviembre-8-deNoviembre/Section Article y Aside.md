@@ -1,0 +1,2 @@
+# Section Article y Aside
+La diferencia entre un **section**, un **article** y **aside** es la relacion de los datos que contienen, un **section** engloba un conjunto de datos relacionados entre si, que al mismo tiempo tienen sentido por si solos, mientras que los **article** son datos con relacion que por si solos no tienen sentido y un **aside** es un conjunto de datos que estan relacion de una manera secundaria con los datos que se estan mostrando pero se cree que pueden interesarte.

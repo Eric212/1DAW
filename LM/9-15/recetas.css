@@ -1,0 +1,21 @@
+body{
+	background-image:url(fondo.jpg);
+}
+.css {
+	background-color: white;
+  opacity:0.9;
+	padding: 1%;
+	margin:1% 35%;
+	border-radius:15px;
+	text-align:center;
+	width:30%;
+}
+figure{
+	width:1%;
+	padding:0% 35%;
+	
+}
+img{
+	width:20;
+	border-radius:20px;
+}

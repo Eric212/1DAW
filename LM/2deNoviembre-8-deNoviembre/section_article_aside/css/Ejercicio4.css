@@ -1,0 +1,75 @@
+@font-face{
+  font-family: 'inicial'; src: url('../tipografia/royal.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+  font-family: 'normal'; src:url('../tipografia/normal.otf')format('opentype');
+  font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+  font-family: 'autor'; src:url('../tipografia/Cardinal-Alternate.ttf')format('truetype');
+  font-weight: normal;
+	font-style: normal;
+}
+html{
+  font-family: 'normal';
+  background-color: black;
+  background-image: url(../img/Ejercicio4.jpg);
+  background-size:cover;
+}
+h1{
+  font-size: 50px;
+  padding-top: 12%;
+  padding-left:35%;
+}
+img{
+  position:absolute; 
+  width: 600px;
+  padding-left: 23%;
+  padding-top: 5%;
+  opacity: 0.2;
+}
+#Inicial{
+  font-family: 'inicial';
+  font-size: 120px;
+  font-weight:normal;
+  color: red;
+  text-shadow: 2px 2px 1px black;
+}
+#principal{
+  background-image:url(../img/pergamino1.png);
+  background-size:cover;
+  width: 80%;
+  height: auto;
+  padding: 0% 2%;
+  margin:3% 10%;
+  border-radius: 15px;
+}
+p{
+  font-size: 30px;
+  line-height: 35px;
+  margin-left: 15%;
+  margin-right: 18%;
+  padding-bottom: 3%;
+}
+em{
+  font-family: autor;
+  padding-left:60%;
+}
+.caja_boton{
+  background-color: transparent;
+  padding-left:45%;
+  width:8%;
+}
+#boton{
+  background-color: white;
+  border-radius: 15px;
+  padding:0px 5px;
+}
+#boton1{
+  background-color: white;
+  border-radius: 15px;
+  padding:0px 10px;
+}
