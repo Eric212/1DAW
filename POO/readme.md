@@ -10,7 +10,7 @@
   - Codigos de escape
   - Salida con formato
 5. <img src="https://cdn-icons-png.flaticon.com/512/2919/2919570.png" width="32" height="32">[Tema 5 Diseño de programas](https://github.com/Eric212/1DAW/tree/main/POO/src/TemasTeoria/Tema%2005)
-6. <img src="https://cdn-icons.flaticon.com/png/512/3316/premium/3316404.png?token=exp=1648080267~hmac=c1d5bca26c47f43461dc007cbe7db9e2" width="32" height="32">[Tema 6 Metodos](https://github.com/Eric212/1DAW/tree/main/POO/src/TemasTeoria/Tema%2006)
+6. <img src="https://cdn-icons.flaticon.com/png/512/3316/premium/3316404.png?token=exp=1648844412~hmac=1323bbdf111b4744124d8cfc63047fbf" width="32" height="32">[Tema 6 Metodos](https://github.com/Eric212/1DAW/tree/main/POO/src/TemasTeoria/Tema%2006)
   - Caracteres y Strings
 7. <img src="https://cdn-icons-png.flaticon.com/512/2857/2857303.png" width="32" height="32">[Tema 7 Estructura de datos I](https://github.com/Eric212/1DAW/tree/main/POO/src/TemasTeoria/Tema%2007)
   - Busqueda en arrays y ordenacion
