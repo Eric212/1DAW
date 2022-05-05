@@ -2,7 +2,7 @@
 ## Índice
 
 1.  <img src="https://cdn-icons-png.flaticon.com/512/38/38167.png" width="32" height="32">[Tema 1 Introduccion a la programacion](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2001)
-2. <img src="https://cdn-icons.flaticon.com/png/512/5815/premium/5815835.png?token=exp=1651771589~hmac=cfb7a067977509b0c98b9783dc5119f4" width="32" height="32">[Tema 2 Introduccion a la programacion orientada a Objetos](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2002)
+2. <img src="https://img.icons8.com/external-outline-juicy-fish/344/external-object-coding-and-development-outline-outline-juicy-fish.png" width="32" height="32">[Tema 2 Introduccion a la programacion orientada a Objetos](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2002)
 3. <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="32" height="32">[Tema 3 Elementos del lenguaje Java](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2003)
     - Entrada de datos
     - Paquetes e importaciones
@@ -10,7 +10,7 @@
     - Codigos de escape
     - Salida con formato
 5. <img src="https://cdn-icons-png.flaticon.com/512/2919/2919570.png" width="32" height="32">[Tema 5 Diseño de programas](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2005)
-6. <img src="https://cdn-icons.flaticon.com/png/512/3316/premium/3316404.png?token=exp=1648844412~hmac=1323bbdf111b4744124d8cfc63047fbf" width="32" height="32">[Tema 6 Metodos](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2006)
+6. <img src="https://img.icons8.com/external-outline-geotatah/344/external-method-socio-technical-system-outline-geotatah.png" width="32" height="32">[Tema 6 Metodos](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2006)
     - Caracteres y Strings
 7. <img src="https://cdn-icons-png.flaticon.com/512/2857/2857303.png" width="32" height="32">[Tema 7 Estructura de datos I](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2007)
     - Busqueda en arrays y ordenacion
@@ -26,4 +26,4 @@
     - Parsers XML y JSON
 13. <img src="https://cdn-icons-png.flaticon.com/512/1857/1857070.png" width="32" height="32">[Tema 13 Hilos de Ejecucion](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2013)
 14. <img src="https://cdn-icons-png.flaticon.com/512/2862/2862196.png" width="32" height="32">[Tema 14 Interfaces Graficas](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2014)
-15. <img src="https://cdn-icons.flaticon.com/png/512/2790/premium/2790435.png?token=exp=1648844448~hmac=2e210efc505dffffc6ea577c7b623d06" width="32" height="32">[Pactica-Final](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2015)
+15. <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/344/external-dragon-supernatural-flaticons-flat-flat-icons.png" width="32" height="32">[Pactica-Final](https://github.com/Eric212/1DAW/tree/main/POO/Curso/TemasTeoria/Tema%2015)
