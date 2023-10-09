@@ -37,7 +37,7 @@ public class Ordenador
             if(izq==der)
             {
             quicksort2(numeros,i,izq-1);
-            quicksort2(numeros,izq+1,d);
+            quicksort2(numeros,izq+1);
             }
             
         }
